@@ -1,0 +1,103 @@
+/* ========================= */
+/* == Obsidian: Rich Foot == */
+/* ========================= */
+
+/* -----------------------*/
+/* -- footer backlinks -- */
+/* -----------------------*/
+.footer--backlinks {
+	margin-top: 150px;
+	border-top: 1px dashed var(--text-accent);
+}
+
+.footer--backlinks::before {
+	content: 'Backlinks';
+	text-transform: uppercase;
+	filter: brightness(150%);
+	position: relative;
+	bottom: 0;
+	font-size: 0.7em;
+	color: var(--text-accent);
+}
+body.theme-light .footer--backlinks::before {
+	filter: brightness(80%);
+}
+
+.footer--backlinks ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 4px;
+}
+
+.footer--backlinks ul li a::before {
+	content: "← ";
+	opacity: .5;
+}
+
+.footer--backlinks ul li a {
+	filter: brightness(120%);
+	text-decoration: none !important;
+	font-size: 12px;
+	padding: 0px 8px;
+	text-transform: lowercase;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0px 4px;
+	cursor: pointer;
+	border-radius: 14px;
+	border: 1px solid rgba(255, 255, 255, 0.204);
+	background-color: var(--tag-background);
+	transition: 150ms ease-in-out all;
+}
+body.theme-light .footer--backlinks ul li a {
+	filter: brightness(80%);
+}
+
+.footer--backlinks ul li a:hover {
+	filter: brightness(170%);
+	border: 1px solid transparent !important;
+	text-decoration: none;
+}
+
+/* ----------------------------------- */
+/* -- created / modified note dates -- */
+/* ----------------------------------- */
+.footer--created-date,
+.footer--modified-date {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	list-style: none;
+	margin-top: 20px;
+	padding-left: 0;
+	font-size: .8em;
+}
+
+.footer--created-date {
+	float: right;
+	margin-right: 20px;
+	margin-left: 20px;
+	filter: brightness(85%);
+	color: var(--text-accent);
+}
+.footer--created-date::before {
+	content: "created date";
+	font-size: .7em;
+	text-transform: uppercase;
+	padding: 2px 8px 0 0;
+}
+
+.footer--modified-date {
+	float: right;
+	filter: brightness(85%);
+	color: var(--text-accent);
+}
+.footer--modified-date::before {
+	content: "modified date";
+	font-size: .7em;
+	text-transform: uppercase;
+	padding: 2px 8px 0 0;
+}
