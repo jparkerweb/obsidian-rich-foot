@@ -9,6 +9,8 @@ Obsidian Rich Foot automatically adds the following style elements to your notes
 ## Instalation
 
 - copy the [scripts/obsidian-rich-foot/](./obsidian-rich-foot/scripts/obsidian-rich-foot/) folder to your Obsidian vault (suggested to save it to a "./scripts/obsidian-rich-foot" folder).
+  
+  <img src="docs/path.png" width="333">
 
 ---
 
