@@ -1,4 +1,4 @@
-# 🦶 obsidian-rich-foot
+# 🦶 Obsidian Rich Foot
 Obsidian Rich Foot automatically adds the following style elements to your notes in Reading View:
 - **_Backlinks_**
 - **_Created Date_**
