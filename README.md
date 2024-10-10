@@ -1,3 +1,4 @@
+❗❗❗ _this functionality has been converted to an official plugin here: [rich-foot](https://github.com/jparkerweb/rich-foot)_ ❗❗❗
 # 🦶 Obsidian Rich Foot
 Obsidian Rich Foot automatically adds the following style elements to your notes in Reading View:
 - **_Backlinks_**
